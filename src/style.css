@@ -1,0 +1,60 @@
+h1,
+p {
+  font-family: Lato;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.wrapper {
+  background: #444;
+  border: #444 1px solid;
+  border-radius: 4px;
+  width: 200px;
+  overflow: hidden;
+}
+.calculatorScreen {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2em;
+  color: white;
+  background: 0;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+}
+.calculatorScreen.smallerFont {
+  font-size: 0.9em;
+}
+.buttonWrapper {
+  flex: 1;
+  height: 40px;
+}
+.button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #555 solid;
+  color: white;
+  background: grey;
+  padding: 0;
+}
+.row {
+  display: flex;
+}
+.button.firstRow {
+  background-color: #666;
+}
+.button.lastInRow {
+  background-color: orange;
+}
+.buttonWrapper.zero {
+  flex: 2;
+}
